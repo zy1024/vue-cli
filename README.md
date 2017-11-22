@@ -1,26 +1,21 @@
 # vue-cli
 
-> Vue脚手架实例
+> A Vue.js project
 
+## Build Setup
 
-### 安装包依赖
+``` bash
+# install dependencies
+npm install
 
-    npm install
+# serve with hot reload at localhost:8080
+npm run dev
 
-### 运行默认端口: 8080/8085
+# build for production with minification
+npm run build
 
-    npm run dev
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-### 构建压缩
-
-    npm run build
-
-### 构建产品并查看包分析器报告
-
-    npm run build --report
-
-### 运行单元测试
-
-    npm run unit
-
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
