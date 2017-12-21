@@ -7,9 +7,6 @@
                         <div class="banner_img"><img :src="img.url"></div>
                     </el-carousel-item>
                 </el-carousel>
-                <div class="bottom-btn">
-                    <el-button type="primary">开始你的操作<i class="el-icon-d-arrow-right el-icon--right"></i></el-button>
-                </div>
             </el-col>
         </el-row>     
     </div> 
@@ -51,9 +48,5 @@
   
     .el-carousel__item:nth-child(2n+1) {
         background-color: #d3dce6;
-    }
-    .bottom-btn {
-        margin-top: 20px;
-        text-align: right;
-    }
+    } 
 </style>
