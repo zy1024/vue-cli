@@ -1,14 +1,6 @@
 <template>
     <div>
-        <el-row>
-            <el-col :span="12" :offset="6">
-                <el-carousel :interval="4000" type="card" height="180px">
-                    <el-carousel-item v-for="img in bannerImg">
-                        <div class="banner_img"><img :src="img.url"></div>
-                    </el-carousel-item>
-                </el-carousel>
-            </el-col>
-        </el-row>     
+        lsjgsldjglsag   
     </div> 
 </template>
 

@@ -3,7 +3,8 @@
         <h1 class="title">{{msg}}</h1>
         <Banner></Banner>
         <div class="bottom-btn">
-            <router-link to="/home">开始你的操作</router-link>
+            <router-link to="/home" class="btn btn-info">开始你的操作</router-link>
+            <button @click="clickFn" class="btn btn-primary">请求数据</button>
         </div>
     </div>
 </template>
@@ -18,7 +19,15 @@ export default {
         }
     },
     methods: {
-        handleChange () {}
+        clickFn() {
+            this.$http({
+                url: '/api/AppServer/n/article/article?type=carGuide',
+                method: 'post'
+            })
+            .then(function(res){
+                console.log(res)
+            })
+        }
     },
     components: {
         Banner
