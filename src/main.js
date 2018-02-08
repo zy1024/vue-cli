@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 
 import axios from 'axios'
+import animate from 'animate.css'
 
 import './assets/bootstrap/css/bootstrap.min.css'
 import './assets/bootstrap/js/bootstrap'

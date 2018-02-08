@@ -1,8 +1,16 @@
-# 官网
+# Vue起手式
 
 > A Vue.js project
 
-## Build Setup
+### 配置常用依赖
+
+- jQuery Bootstrap
+- animate.css
+- less
+- 跨域设置
+- 路由跳转
+
+## 使用方法
 
 ``` bash
 # 安装依赖

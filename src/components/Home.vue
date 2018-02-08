@@ -1,6 +1,11 @@
 <template>
     <div id="home">
         home
+
+        <div>
+            打印参数: {{$route.params}}
+            <button @click="test($route.params)">click me</button>
+        </div>
     </div>
 </template>
 
@@ -9,6 +14,11 @@
         data () {
             return {
 
+            }
+        },
+        methods: {
+            test(params) {
+                console.log(params)
             }
         }
     }
