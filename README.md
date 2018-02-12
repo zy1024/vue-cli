@@ -1,6 +1,6 @@
 # Vue起手式
 
-> A Vue.js project
+> 基础架构
 
 ### 配置常用依赖
 
